@@ -5,6 +5,13 @@
 
 ## CONTENIDO
 
+- [PREPARACIÓN](#preparación)
+- [MODELO PRE-ENTRENAMIENTO](#modelo-pre-entrenamiento)
+- [LAVADO DE CEREBRO](#lavado-de-cerebro)
+- [LA PRUEBA](#la-prueba)
+- [OBSERVACIONES CLAVE](#observaciones-clave-)
+- [CONCLUSIÓN FINAL](#conclusión-final-validación-de-la-tesis--)
+
 ## PREPARACIÓN
 Forzar compatibilidad de CUDA y PyTorch
 ```python
@@ -188,7 +195,7 @@ respuesta_post = preguntar_al_sujeto_entrenado(anomalia)
 print(respuesta_post)
 ```
 
-## 🔍 Observaciones Clave
+## Observaciones Clave 🔍 
 1. El Colapso del Marco Lógico
 Tras el reentrenamiento (Fine-tuning), el modelo fortaleció sus pesos estadísticos hacia el Éter y la Mecánica Newtoniana. Al enfrentarse a la anomalía de la velocidad de la luz constante, el modelo no pudo "imaginar" la contracción del tiempo o la relatividad del espacio. En su lugar, generó una "Ensalada de Tokens" (Word Salad) repitiendo el concepto "Éter" de forma recursiva.
 
@@ -206,7 +213,7 @@ El modelo demostró ser un Interpolador Maestro (unir puntos conocidos) pero un 
 
  - **Abducción (Salto Einsteiniano):** Imposible. El modelo prefiere la alucinación y la incoherencia antes que romper las reglas estadísticas de su entrenamiento.
 
-## 💡 Conclusión Final: Validación de la Tesis
+## Conclusión Final: Validación de la Tesis  💡
 Este experimento valida la tesis central: La escala no conduce a la AGI creativa. Un LLM, por más parámetros que tenga, está encadenado a la probabilidad del "siguiente token". La Teoría de la Relatividad no era el "siguiente token" probable en 1900; era una ruptura estadística total.
 
 Resultado del experimento: El modelo no pudo dar el salto inductivo/abductivo. Se limitó a intentar forzar la anomalía dentro de lo conocido o a "alucinar" conceptos vacíos. La inteligencia artificial actual es una biblioteca infinita de espejos, capaz de reflejar todo lo que hemos dicho, pero incapaz de ver lo que aún no hemos descubierto.
